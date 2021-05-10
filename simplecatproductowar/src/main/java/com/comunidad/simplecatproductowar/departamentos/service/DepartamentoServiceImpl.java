@@ -1,0 +1,26 @@
+package com.comunidad.simplecatproductowar.departamentos.service;
+
+import com.comunidad.simplecatproductowar.departamentos.dao.DepartamentoDao;
+import com.comunidad.simplecatproductowar.departamentos.dao.vo.DepartamentosVo;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class DepartamentoServiceImpl implements DepartamentoService {
+
+    @Autowired
+    private DepartamentoDao departamentoDao;
+
+    @Override
+    public List<DepartamentosVo> lista(DepartamentosVo departamentoVo) throws Exception {
+        return departamentoDao.lista(departamentoVo);
+    }
+
+    @Override
+    public DepartamentosVo buscar(int idDep) throws Exception {
+        return departamentoDao.buscar(idDep);
+    }
+
+}
