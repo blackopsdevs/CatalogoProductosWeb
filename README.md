@@ -8,6 +8,12 @@ _Este mini-proyecto pretende exponer el catalogo de productos [Catalogo de produ
 
 _Este menu corresponde a mostrar la gerarquia de productos como se muestra en la siguiente imagen:_
 
+**Catalogo como salida de este proyecto**_
+<p align="center">
+  <img width="700" align="center" src="https://github.com/blackopsdevs/CatalogoProductosWeb/blob/master/img_menu1.png" alt="demo"/>
+</p>
+
+**Catalogo base de ejemplo**_
 <p align="center">
   <img width="700" align="center" src="https://github.com/blackopsdevs/CatalogoProductos/blob/main/img_orig.png" alt="demo"/>
 </p>
